@@ -55,3 +55,4 @@ selections:
     - sysctl_fs_protected_hardlinks
     - sysctl_fs_suid_dumpable
     - sysctl_kernel_randomize_va_space
+    - file_permissions_sros2_demo

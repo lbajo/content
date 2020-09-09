@@ -1,0 +1,12 @@
+documentation_complete: true
+
+title: 'ROS2 System Checks'
+
+description: |-
+    When you try to use ROS2 technology, you can also add the 
+    SROS2 security package to the installation.
+    The SROS2 package provides security to the ROS2 node system, 
+    adding authentication, encryption and access control.
+    With these rules, the check will be carried out that the configuration 
+    of this package has been carried out correctly.
+    

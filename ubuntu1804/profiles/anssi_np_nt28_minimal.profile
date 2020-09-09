@@ -24,3 +24,5 @@ selections:
     - file_permissions_etc_group
     - file_owner_etc_group
     - file_groupowner_etc_group
+    - file_permissions_sros2_demo
+
