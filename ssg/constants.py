@@ -22,7 +22,7 @@ product_directories = [
     'rhosp10', 'rhosp13',
     'rhv4',
     'sle11', 'sle12', 'sle15',
-    'ubuntu1404', 'ubuntu1604', 'ubuntu1804',
+    'ubuntu1404', 'ubuntu1604', 'ubuntu1804', 'ubuntu1804ros2'
     'vsel',
     'wrlinux8', 'wrlinux1019'
 ]
@@ -171,6 +171,7 @@ FULL_NAME_TO_PRODUCT_MAPPING = {
     "Ubuntu 14.04": "ubuntu1404",
     "Ubuntu 16.04": "ubuntu1604",
     "Ubuntu 18.04": "ubuntu1804",
+    "Ubuntu 18.04 ROS2": "ubuntu1804ros2",
     "WRLinux 8": "wrlinux8",
     "WRLinux 1019": "wrlinux1019",
 }
@@ -314,6 +315,9 @@ PRODUCT_TO_CPE_MAPPING = {
     "ubuntu1804": [
         "cpe:/o:canonical:ubuntu_linux:18.04",
     ],
+    "ubuntu1804ros2": [
+        "cpe:/o:canonical:ubuntu_linux:18.04ros2",
+    ],
     "vsel": [
         "cpe:/a:mcafee:virusscan_enterprise_for_linux:1.9",
         "cpe:/a:mcafee:virusscan_enterprise_for_linux:2.0",
@@ -351,7 +355,7 @@ MULTI_PLATFORM_MAPPING = {
     "multi_platform_rhosp": ["rhosp10", "rhosp13"],
     "multi_platform_rhv": ["rhv4"],
     "multi_platform_sle": ["sle11", "sle12", "sle15"],
-    "multi_platform_ubuntu": ["ubuntu1404", "ubuntu1604", "ubuntu1804"],
+    "multi_platform_ubuntu": ["ubuntu1404", "ubuntu1604", "ubuntu1804", "ubuntu1804ros2"],
     "multi_platform_wrlinux": ["wrlinux8", "wrlinux1019"],
 }
 
