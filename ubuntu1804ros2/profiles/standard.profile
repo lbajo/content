@@ -55,10 +55,10 @@ selections:
     - sysctl_fs_protected_hardlinks
     - sysctl_fs_suid_dumpable
     - sysctl_kernel_randomize_va_space
-    # - file_owner_ros2_logs
-    # - file_owner_sros2_demo_ca_cert
-    # - file_owner_sros2_demo_ca_key
-    # - file_owner_sros2_demo_governance_p7s
+    - file_owner_ros2_logs
+    - file_owner_sros2_demo_ca_cert
+    - file_owner_sros2_demo_ca_key
+    - file_owner_sros2_demo_governance_p7s
     - file_owner_sros2_demo_governance_xml
     - file_permissions_sros2_demo
     - package_ros2_eloquent_installed
