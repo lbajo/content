@@ -24,3 +24,10 @@ selections:
     - file_permissions_etc_group
     - file_owner_etc_group
     - file_groupowner_etc_group
+    - file_owner_ros2_logs
+    - file_owner_sros2_demo_ca_cert
+    - file_owner_sros2_demo_ca_key
+    - file_owner_sros2_demo_governance_p7s
+    - file_owner_sros2_demo_governance_xml
+    - file_permissions_sros2_demo
+    - package_ros2_eloquent_installed

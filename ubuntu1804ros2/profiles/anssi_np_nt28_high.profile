@@ -9,3 +9,4 @@ extends: anssi_np_nt28_restrictive
 
 selections:
     - grub2_enable_iommu_force
+    
